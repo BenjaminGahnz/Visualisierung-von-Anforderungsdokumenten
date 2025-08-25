@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="_uSDUYTc9EemgD_0_pe4g2g">
+      <COMMENT>Created by: till</COMMENT>
+      <CREATION-TIME>2019-02-23T08:36:24.981+01:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ReqIF Studio (https://reqif.academy)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>Specification Title</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_uSDUYzc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:24.981+01:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+        <DATATYPE-DEFINITION-BOOLEAN IDENTIFIER="_yZDmADc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:50.018+01:00" LONG-NAME="bool_type"/>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_2NT6wDc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:37:15.881+01:00" LONG-NAME="string_type_1024" MAX-LENGTH="1024"/>
+        <DATATYPE-DEFINITION-INTEGER IDENTIFIER="_CGaPsDc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:38:35.773+01:00" LONG-NAME="interger_type_0_15" MAX="15" MIN="0"/>
+        <DATATYPE-DEFINITION-REAL IDENTIFIER="_GT_DYDc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:39:04.668+01:00" LONG-NAME="real_type_0_15" ACCURACY="1" MAX="15.0" MIN="0.0"/>
+        <DATATYPE-DEFINITION-DATE IDENTIFIER="_Mz-loDc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:39:47.874+01:00" LONG-NAME="date_type"/>
+        <DATATYPE-DEFINITION-ENUMERATION IDENTIFIER="_OE4M0Dc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:39:56.316+01:00" LONG-NAME="enumeration_type">
+          <SPECIFIED-VALUES>
+            <ENUM-VALUE IDENTIFIER="_SHZAADc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:40:23.027+01:00" LONG-NAME="A">
+              <PROPERTIES>
+                <EMBEDDED-VALUE KEY="1" OTHER-CONTENT="1"/>
+              </PROPERTIES>
+            </ENUM-VALUE>
+            <ENUM-VALUE IDENTIFIER="_S3hccDc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:40:29.439+01:00" LONG-NAME="B">
+              <PROPERTIES>
+                <EMBEDDED-VALUE KEY="2" OTHER-CONTENT="2"/>
+              </PROPERTIES>
+            </ENUM-VALUE>
+            <ENUM-VALUE IDENTIFIER="_UeEjgDc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:40:39.643+01:00" LONG-NAME="C">
+              <PROPERTIES>
+                <EMBEDDED-VALUE KEY="3" OTHER-CONTENT="3"/>
+              </PROPERTIES>
+            </ENUM-VALUE>
+          </SPECIFIED-VALUES>
+        </DATATYPE-DEFINITION-ENUMERATION>
+        <DATATYPE-DEFINITION-XHTML IDENTIFIER="_QPzzUDc-EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:40:10.930+01:00" LONG-NAME="xhtml_type"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_uSDUZDc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:24.981+01:00" LONG-NAME="Requirement Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_uSDUZTc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:24.981+01:00" LONG-NAME="Description" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_uSDUYzc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_O7q1cDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:47:09.672+01:00" LONG-NAME="bool_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-BOOLEAN-REF>_yZDmADc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-BOOLEAN-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-BOOLEAN>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_SUWogDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:47:33.482+01:00" LONG-NAME="string_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_2NT6wDc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-INTEGER IDENTIFIER="_U8ERoDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:47:49.743+01:00" LONG-NAME="integer_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-INTEGER-REF>_CGaPsDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-INTEGER-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-INTEGER>
+            <ATTRIBUTE-DEFINITION-REAL IDENTIFIER="_Xc86ADc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:48:08.472+01:00" LONG-NAME="real_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-REAL-REF>_GT_DYDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-REAL-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-REAL>
+            <ATTRIBUTE-DEFINITION-DATE IDENTIFIER="_gb3VwDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:49:08.877+01:00" LONG-NAME="date_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-DATE-REF>_Mz-loDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-DATE-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-DATE>
+            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_itDVQDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:49:22.035+01:00" LONG-NAME="xhtml_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-XHTML-REF>_QPzzUDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-XHTML-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-XHTML>
+            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_mQaHQDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:49:48.508+01:00" LONG-NAME="enumeration_column" IS-EDITABLE="true" MULTI-VALUED="false">
+              <TYPE>
+                <DATATYPE-DEFINITION-ENUMERATION-REF>_OE4M0Dc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-ENUMERATION-REF>
+              </TYPE>
+              <DEFAULT-VALUE/>
+            </ATTRIBUTE-DEFINITION-ENUMERATION>
+            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_ooTywDc_EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:50:04.516+01:00" LONG-NAME="enumeration_column_multi" IS-EDITABLE="true" MULTI-VALUED="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-ENUMERATION-REF>_OE4M0Dc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-ENUMERATION-REF>
+              </TYPE>
+              <DEFAULT-VALUE/>
+            </ATTRIBUTE-DEFINITION-ENUMERATION>
+            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_KuZUADdQEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T10:48:21.191+01:00" LONG-NAME="bool_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-BOOLEAN-REF>_yZDmADc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-BOOLEAN-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-BOOLEAN THE-VALUE="true">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-BOOLEAN-REF>_KuZUADdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-BOOLEAN-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-BOOLEAN>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-BOOLEAN>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_OEzPIDdQEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T10:48:43.372+01:00" LONG-NAME="string_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_2NT6wDc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-STRING THE-VALUE="test">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-STRING-REF>_OEzPIDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-STRING>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-INTEGER IDENTIFIER="_Q83ocDdQEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T10:49:06.388+01:00" LONG-NAME="integer_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-INTEGER-REF>_CGaPsDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-INTEGER-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-INTEGER THE-VALUE="1">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-INTEGER-REF>_Q83ocDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-INTEGER-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-INTEGER>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-INTEGER>
+            <ATTRIBUTE-DEFINITION-REAL IDENTIFIER="_ag5jcDdQEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T10:50:09.207+01:00" LONG-NAME="real_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-REAL-REF>_GT_DYDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-REAL-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-REAL THE-VALUE="2.0">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-REAL-REF>_ag5jcDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-REAL-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-REAL>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-REAL>
+            <ATTRIBUTE-DEFINITION-DATE IDENTIFIER="_d9XDQDdQEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T10:50:31.053+01:00" LONG-NAME="date_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-DATE-REF>_Mz-loDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-DATE-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-DATE THE-VALUE="2004-04-12T13:20:00.000+02:00">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-DATE-REF>_d9XDQDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-DATE-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-DATE>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-DATE>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_UbX9YDdVEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:25:16.361+01:00" LONG-NAME="name" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_uSDUYzc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_uSDUZjc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:24.981+01:00" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_uSDUZzc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:24.981+01:00" LONG-NAME="Description" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_uSDUYzc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_cEGO0DdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:55:47.537+01:00" LONG-NAME="bool_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-BOOLEAN-REF>_yZDmADc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-BOOLEAN-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-BOOLEAN>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_ehrEgDdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:56:04.314+01:00" LONG-NAME="string_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_2NT6wDc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-INTEGER IDENTIFIER="_gTuQ8DdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:56:17.986+01:00" LONG-NAME="integer_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-INTEGER-REF>_CGaPsDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-INTEGER-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-INTEGER>
+            <ATTRIBUTE-DEFINITION-REAL IDENTIFIER="_iIDVUDdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:56:29.545+01:00" LONG-NAME="real_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-REAL-REF>_GT_DYDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-REAL-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-REAL>
+            <ATTRIBUTE-DEFINITION-DATE IDENTIFIER="_j7FZMDdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:56:41.982+01:00" LONG-NAME="date_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-DATE-REF>_Mz-loDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-DATE-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-DATE>
+            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_linXsDdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:56:52.732+01:00" LONG-NAME="xhtml_column" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-XHTML-REF>_QPzzUDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-XHTML-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-XHTML>
+            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_nMm0UDdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:57:02.012+01:00" LONG-NAME="enumeration_column" IS-EDITABLE="true" MULTI-VALUED="false">
+              <TYPE>
+                <DATATYPE-DEFINITION-ENUMERATION-REF>_OE4M0Dc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-ENUMERATION-REF>
+              </TYPE>
+              <DEFAULT-VALUE/>
+            </ATTRIBUTE-DEFINITION-ENUMERATION>
+            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_pLmQkDdAEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:57:16.174+01:00" LONG-NAME="enumeration_column_multi" IS-EDITABLE="true" MULTI-VALUED="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-ENUMERATION-REF>_OE4M0Dc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-ENUMERATION-REF>
+              </TYPE>
+              <DEFAULT-VALUE/>
+            </ATTRIBUTE-DEFINITION-ENUMERATION>
+            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_dDdqADdUEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:19:03.534+01:00" LONG-NAME="bool_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-BOOLEAN-REF>_yZDmADc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-BOOLEAN-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-BOOLEAN THE-VALUE="true">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-BOOLEAN-REF>_dDdqADdUEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-BOOLEAN-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-BOOLEAN>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-BOOLEAN>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_ga0AUDdUEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:19:27.389+01:00" LONG-NAME="string_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_2NT6wDc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-STRING THE-VALUE="test">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-STRING-REF>_ga0AUDdUEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-STRING>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-INTEGER IDENTIFIER="_lHLo0DdUEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:19:56.121+01:00" LONG-NAME="integer_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-INTEGER-REF>_CGaPsDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-INTEGER-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-INTEGER THE-VALUE="1">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-INTEGER-REF>_lHLo0DdUEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-INTEGER-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-INTEGER>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-INTEGER>
+            <ATTRIBUTE-DEFINITION-REAL IDENTIFIER="_pC_-IDdUEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:20:25.216+01:00" LONG-NAME="real_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-REAL-REF>_GT_DYDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-REAL-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-REAL THE-VALUE="2.0">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-REAL-REF>_pC_-IDdUEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-REAL-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-REAL>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-REAL>
+            <ATTRIBUTE-DEFINITION-DATE IDENTIFIER="_sVMHoDdUEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:20:47.006+01:00" LONG-NAME="date_column_default" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-DATE-REF>_Mz-loDc-EemgD_0_pe4g2g</DATATYPE-DEFINITION-DATE-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-DATE THE-VALUE="2004-04-12T13:20:00.000+02:00">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-DATE-REF>_sVMHoDdUEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-DATE-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-DATE>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-DATE>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_PIV9gDdVEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:24:38.446+01:00" LONG-NAME="name" IS-EDITABLE="true">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_uSDUYzc9EemgD_0_pe4g2g</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+        <SPEC-RELATION-TYPE IDENTIFIER="_NUEuEDdWEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:31:34.397+01:00" LONG-NAME="rel_type"/>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_apqEkDdVEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T14:27:30.604+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="A">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="every column filled">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-BOOLEAN THE-VALUE="true">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-BOOLEAN-REF>_O7q1cDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-BOOLEAN-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-BOOLEAN>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="text">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-INTEGER THE-VALUE="4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-INTEGER-REF>_U8ERoDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-INTEGER-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-INTEGER>
+            <ATTRIBUTE-VALUE-REAL THE-VALUE="4.0">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-REAL-REF>_Xc86ADc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-REAL-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-REAL>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2019-02-23T11:27:58.000+01:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_gb3VwDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-XHTML>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_itDVQDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+              <THE-VALUE>
+                <xhtml:div>
+                  <xhtml:p style=""><xhtml:b>text</xhtml:b> <xhtml:i>text2</xhtml:i> <xhtml:span style="text-decoration: underline;">text3Â </xhtml:span></xhtml:p>
+                </xhtml:div>
+              </THE-VALUE>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-ENUMERATION>
+              <VALUES>
+                <ENUM-VALUE-REF>_SHZAADc-EemgD_0_pe4g2g</ENUM-VALUE-REF>
+              </VALUES>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-ENUMERATION-REF>_mQaHQDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-ENUMERATION-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-ENUMERATION>
+            <ATTRIBUTE-VALUE-ENUMERATION>
+              <VALUES>
+                <ENUM-VALUE-REF>_S3hccDc-EemgD_0_pe4g2g</ENUM-VALUE-REF>
+                <ENUM-VALUE-REF>_UeEjgDc-EemgD_0_pe4g2g</ENUM-VALUE-REF>
+              </VALUES>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-ENUMERATION-REF>_ooTywDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-ENUMERATION-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-ENUMERATION>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_sLYskDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:26:51.042+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="nothing filled">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="B">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_to5zcDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:35.602+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="default values filled">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="C">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-BOOLEAN THE-VALUE="false">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-BOOLEAN-REF>_KuZUADdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-BOOLEAN-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-BOOLEAN>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="other">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OEzPIDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-INTEGER THE-VALUE="2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-INTEGER-REF>_Q83ocDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-INTEGER-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-INTEGER>
+            <ATTRIBUTE-VALUE-REAL THE-VALUE="3.0">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-REAL-REF>_ag5jcDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-REAL-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-REAL>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2004-04-24T01:20:00.000+02:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_d9XDQDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_t6AxkDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:07.084+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="D">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="filled like default">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-BOOLEAN THE-VALUE="true">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-BOOLEAN-REF>_KuZUADdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-BOOLEAN-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-BOOLEAN>
+            <ATTRIBUTE-VALUE-INTEGER THE-VALUE="1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-INTEGER-REF>_Q83ocDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-INTEGER-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-INTEGER>
+            <ATTRIBUTE-VALUE-REAL THE-VALUE="2.0">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-REAL-REF>_ag5jcDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-REAL-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-REAL>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2004-04-12T13:20:00.000+02:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_d9XDQDdQEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_8DZuIDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:29:53.985+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="E">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyE">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_8uFC0DduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:30:09.869+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="I">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyI">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_9rQcwDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:30:05.209+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyJ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="J">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_-Ev60DduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:30:06.627+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyF">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="F">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_-c8_cDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:29:59.421+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyH">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="H">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_-_GqQDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:29:57.320+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SUWogDc_EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyG">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="G">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_LLFe8DdvEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:30:20.910+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="dummyK">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZTc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="K">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_UbX9YDdVEemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_uSDUZDc9EemgD_0_pe4g2g</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPEC-RELATIONS>
+        <SPEC-RELATION IDENTIFIER="_vttR8CspEeujw8WgJ8uMvQ" LAST-CHANGE="2020-11-20T13:12:59.343+01:00">
+          <TARGET>
+            <SPEC-OBJECT-REF>_-Ev60DduEemqJOD1V983aw</SPEC-OBJECT-REF>
+          </TARGET>
+          <SOURCE>
+            <SPEC-OBJECT-REF>_to5zcDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+          </SOURCE>
+          <TYPE>
+            <SPEC-RELATION-TYPE-REF>_NUEuEDdWEemgD_0_pe4g2g</SPEC-RELATION-TYPE-REF>
+          </TYPE>
+        </SPEC-RELATION>
+      </SPEC-RELATIONS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_uSDUajc9EemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T08:36:24.981+01:00" LONG-NAME="Specification Document">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_uSDUZzc9EemgD_0_pe4g2g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_uSDUZjc9EemgD_0_pe4g2g</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_aqLpADdVEemgD_0_pe4g2g" LAST-CHANGE="2019-02-23T11:25:59.365+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_apqEkDdVEemgD_0_pe4g2g</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_sL64EDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:26:51.042+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_sLYskDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_tpcmADduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:26:57.638+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_to5zcDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_t6iWADduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:27:06.378+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_t6AxkDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_8D7SkDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:40.385+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_8DZuIDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_-FQ4MDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:54.749+01:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_-Ev60DduEemqJOD1V983aw</SPEC-OBJECT-REF>
+                      </OBJECT>
+                      <CHILDREN>
+                        <SPEC-HIERARCHY IDENTIFIER="_-_nnoDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:29:00.995+01:00">
+                          <OBJECT>
+                            <SPEC-OBJECT-REF>_-_GqQDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+                          </OBJECT>
+                        </SPEC-HIERARCHY>
+                      </CHILDREN>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_-dfK8DduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:57.039+01:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_-c8_cDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_8umnQDduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:44.054+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_8uFC0DduEemqJOD1V983aw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_9rwMADduEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:28:51.813+01:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_9rQcwDduEemqJOD1V983aw</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_LLmcUDdvEemqJOD1V983aw" LAST-CHANGE="2019-02-23T14:30:20.910+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_LLFe8DdvEemqJOD1V983aw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>ReqIF.ChapterNumber</defaultLabel>
+                <defaultLabel>ReqIF.ChapterName</defaultLabel>
+                <defaultLabel>ReqIF.Name</defaultLabel>
+                <defaultLabel>ReqIF.Text</defaultLabel>
+                <defaultLabel>ID</defaultLabel>
+                <defaultLabel>Name</defaultLabel>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

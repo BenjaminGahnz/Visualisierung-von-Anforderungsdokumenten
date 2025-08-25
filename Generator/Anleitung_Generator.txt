@@ -1,0 +1,5 @@
+Im Database Connector URL Datenbank und Pw ergänzen
+Danach Compilieren und auf einen Localen server verschieben
+Im Browser den Server aufrufen bei mir ist es http://localhost:8080/org.getaviz.generator-1/generate
+Der letzten teil /org.getaviz.generator-1/generate startet den verarbeitungsprozess
+Es wird im HauptOrdner des PCs ein neuer Ordner angelegt mit C:\var\lib\jetty\data-gen\default hier werden die erzeugten modelle gespeichert

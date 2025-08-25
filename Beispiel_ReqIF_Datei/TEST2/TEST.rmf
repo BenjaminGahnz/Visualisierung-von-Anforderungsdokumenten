@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ASCII"?>
+<configuration:ProrToolExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <specViewConfigurations>
+    <specification href="TEST.reqif#_cf024593-2de0-45cf-ae98-0941b85cc094"/>
+    <columns label="ReqIF.ForeignID" width="100"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="219"/>
+    <columns label="Acceptance Criteria" width="100"/>
+    <columns label="As a(n)" width="100"/>
+    <columns label="Estimation" width="100"/>
+    <columns label="I want to" width="100"/>
+    <columns label="Priority" width="100"/>
+    <columns label="Risk" width="100"/>
+    <columns label="So that" width="100"/>
+    <columns label="Status" width="100"/>
+    <columns label="Type" width="100"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <specViewConfigurations>
+    <specification href="TEST.reqif#_f0775375-0043-46e7-9ae0-76fffc054ae6"/>
+    <columns label="ReqIF.ForeignID" width="100"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="824"/>
+    <columns label="Applicable" width="100"/>
+    <columns label="ASVS ID" width="100"/>
+    <columns label="Compliance Status" width="100"/>
+    <columns label="CWE" width="100"/>
+    <columns label="Evidence" width="100"/>
+    <columns label="L1" width="100"/>
+    <columns label="L1 Text" width="100"/>
+    <columns label="L2" width="100"/>
+    <columns label="L2 Text" width="100"/>
+    <columns label="L3" width="100"/>
+    <columns label="L3 Text" width="100"/>
+    <columns label="NIST &#xa7;" width="100"/>
+    <columns label="Ordinal" width="100"/>
+    <columns label="Owner" width="100"/>
+    <columns label="Type" width="100"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <specViewConfigurations>
+    <specification href="TEST.reqif#_d1767ebc-7332-4fa9-bdc7-a8ad00ad2c83"/>
+    <columns label="ReqIF.ForeignID" width="100"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="478"/>
+    <columns label="DET" width="100"/>
+    <columns label="Detection Mode" width="100"/>
+    <columns label="Potential Effects" width="100"/>
+    <columns label="PROB" width="100"/>
+    <columns label="Responsibility" width="100"/>
+    <columns label="SEV" width="100"/>
+    <columns label="Target Date" width="100"/>
+    <columns label="Type" width="100"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <specViewConfigurations>
+    <specification href="TEST.reqif#_92f49f0c-e032-42d9-a0de-0c5df3c4d103"/>
+    <columns label="ReqIF.ForeignID" width="159"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="730"/>
+    <columns label="Compliance" width="27"/>
+    <columns label="Difficulty" width="5"/>
+    <columns label="Owner" width="5"/>
+    <columns label="Priority" width="5"/>
+    <columns label="Rationale" width="5"/>
+    <columns label="Source" width="5"/>
+    <columns label="Status" width="100"/>
+    <columns label="Type" width="5"/>
+    <columns label="Ver. Method" width="60"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <specViewConfigurations>
+    <specification href="TEST.reqif#_c29aae4e-f6f1-491c-a638-50000a2d2b58"/>
+    <columns label="ReqIF.ForeignID" width="100"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="100"/>
+    <columns label="Test Data" width="100"/>
+    <columns label="Expected Result" width="100"/>
+    <columns label="Postcondition" width="100"/>
+    <columns label="Precondition" width="100"/>
+    <columns label="Status" width="100"/>
+    <columns label="Type" width="100"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <specViewConfigurations>
+    <specification href="TEST.reqif#_c907e0e8-1982-429c-879b-d0d03d96b553"/>
+    <columns label="ReqIF.ForeignID" width="100"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="323"/>
+    <columns label="Type" width="100"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <generalConfiguration>
+    <labelConfiguration>
+      <defaultLabel>ReqIF.ChapterNumber</defaultLabel>
+      <defaultLabel>ReqIF.ChapterName</defaultLabel>
+      <defaultLabel>ReqIF.Name</defaultLabel>
+      <defaultLabel>ReqIF.Text</defaultLabel>
+      <defaultLabel>ID</defaultLabel>
+      <defaultLabel>Name</defaultLabel>
+      <defaultLabel>Description</defaultLabel>
+    </labelConfiguration>
+  </generalConfiguration>
+</configuration:ProrToolExtension>

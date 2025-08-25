@@ -1,0 +1,78 @@
+NOCH ANZUPASSEN:
+SettingsConfiguration.properties speicher Ort für erzeugte Visualisierung
+
+
+ToDo für 1. Prototypen:
+JQA2JSON
+SettingsConfiguration: Pfad zum speichern der erzeugten Visualisierung muss geändert werden!
+Log Methode muss geändert werden, soll im Terminal ausgegeben werden zum Debugen
+
+ToDo für Finale Version:
+- Package Logik
+- SettingsConfiguration.java
+- Importer + ScanStep
+- ckeckRequiremenets muss entfernt oder angepasst werden. 
+- Alle Selbst erstellten Metriken excludieren und nur orginal Attribute anzeigen im CodeVierwer
+
+! Restore Database from Dump:
+>Stop DB
+cd bin
+neo4j-admin database load --from-path=C:\Users\Benja\.Neo4jDesktop\relate-data\projects\project-ee11f31a-7c14-4f29-aad9-1b9792b6961a neo4j --overwrite-destination=true
+>Start DB
+
+//TODo: 
+
+1. Unterschiedliche Farben für unterschiedliche Spezifikationen
+2. Allen Gebäudeen eine Minimal Höhe zuweisen -> einfach in der config anpassen
+3. Das User Interface:
+                        x    -Bodenplattenbeziehungen, ->   noch nicht getestet!
+                            -Spezificationsbezeichnungen auf Aframe Model printen,
+                            -Packege Explorer [Is die ordung abhängig von der Reihenfolge in metaData.json?] 
+                                        -> Ist Abhängig vom belongsTo:
+                            - Klärungsbedarf, Zuständigkeiten, Tracebillitymatrix
+                            - Auswahlmöglichkeit bzgl. Labels darstellen
+                            -Auswahlmöglichkeit bzgl.  nur Ausgehende Beziehungen darstellen 
+                                    oder Ein und Ausgehende Beziehungen
+4. Generator:
+            x   - bezüglich Package Explorer (Strucktur in der JSON sollte vlt doch hash order erfüllt werden?)
+            x   - Bodenplatten Beziehungen anpassen (Bodenplatten Bekommen nun Bezoehungen zugewiesen)
+            dumme idee    - Graue Bodeplatte auf der sich alle Spezidikationen befinden 
+                    und auf die sie sich alle beziehen, auch für pakage Explorer
+            x   - Mindest höhe für Gebäude (in settings.properties 
+                    Länge/Breite in kleineren Schritte
+                - Farben für unterschiedliche Requirements arten (City2City Ln 211)
+                - Anordnung Bodenplatten abhängig von Beziehungsmatrix
+
+            
+5. Extractor: - Informations and Sections including only Infos, ausschließen!
+6. Verschiedene Farben für verschiedene Beziehungstypen (Anpassen im UI und Generator )
+7. Config einarbeiten und vieles ausblende, bzw optional machen
+8. Buildings könnten mit der farbe auch symbolisieren ob new, modified, unchanged ...
+9. Zu Ausblick: verschiedene Design Entscheidungen müssen im Kontext des 
+   Requirement Engineering Workflows evluiert werde
+
+
+
+//ToDo 20.09:
+x    -Verschiedene Farben für Spezifikationen (von hell zu dunkel)
+    -jeder District sollte seinen Namen oben darstellen 
+    -Buildings je nach Requirements Typ eine Farbe geben -> könnte sich mit Bodenplatten farben beißen
+
+TreeMap: 
+- Alle Gebäude gleich groß
+- Bodeplatte als Grundlage 
+- Sortier Algorithmus anpassen 
+- ggf jedem District noch eine weiße Umrandung geben  
+
+
+
+//? Labels Hinzufügen
+
+//*Umsetzung: 
+- Fläche der Bodenplatten wurde um 10% erhöht -> diese extra 10% sollen Als Raum für die Labels genutzt werden
+
+
+
+
+
+Ideen: 

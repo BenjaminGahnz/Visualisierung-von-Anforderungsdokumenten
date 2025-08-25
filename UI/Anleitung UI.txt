@@ -1,0 +1,3 @@
+Der Anleitung im Wiki folgen, dockerfile und richtigen npr module sind bereits integreiert. 
+In Docker -> inspect files und unter var/lib/jetty/data-gen den reqif-Ordner Beispiel-Ordner importieren
+Anschließend ist es Aufrufbar über http://localhost:8082/ui/index.php?aframe=true&model=reqif&setup=default&srcDir=data-gen
